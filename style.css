@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+body {
+    font-family:'Poppins';
+    background:black;
+    color:white;
+}
+.message-wrap {
+  width:600px;
+  margin:auto;
+}
+#message {
+    padding:40px 0px;
+}
+#dividers {
+  height:600px;
+  width:600px;
+  padding:0px;
+  background: linear-gradient(-45deg, #33beff, #ff4d4d);
+}
+table {
+  height:600px;
+  width:600px;
+}
+tr {
+  height:200px;
+  width:100%;
+  padding:0px;
+}
+td {
+  height:200px;
+  width:200px;
+  background:black;
+  display:inline-block;
+  border:5px solid transparent;
+  background-clip:padding-box;
+}
+#rowZero td {
+  border-top:0px;
+}
+tr > td:first-child{
+  border-left:0px;
+}
+#rowTwo td {
+  border-bottom:0px;
+}
+tr > td:last-child {
+  border-right:0px;
+}
+.circle {
+  opacity: 0;
+}
+.blue {
+  width:175px;
+  height:175px;
+  background:linear-gradient(45deg, #ccf2ff ,#007399);
+  border-radius:50%;
+  margin:auto;
+  margin-top:10px;
+}
+.red {
+  width:175px;
+  height:175px;
+  background:linear-gradient(45deg, #ffcccc, #990000); 
+  border-radius:50%;
+  margin:auto;
+  margin-top:10px;
+}
+.inner {
+  background:black;
+  border-radius:50%;
+  width:100%;
+  height:100%;
+  border:10px solid transparent;
+  background-clip:padding-box;
+}
+#choose {
+  height:300px;
+  width:600px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.choice {
+  height:300px;
+  width:300px;
+  cursor:pointer;
+  display:inline-block;
+}
+#blue, #red {
+  opacity:1;
+}
+#signature {
+  margin-top:100px;
+}
